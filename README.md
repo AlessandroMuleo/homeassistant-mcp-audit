@@ -46,7 +46,7 @@ The `readOnlyHint` part can be read in the source: the annotation is on line 20 
 ## Related work
 
 - Jinja2 fix for CVE-2025-27516: [pallets/jinja@90457bb](https://github.com/pallets/jinja/commit/90457bbf33b8662926ae65cdde4c4c32e756e403) and [advisory GHSA-cpwx-vrp4-4pq7](https://github.com/pallets/jinja/security/advisories/GHSA-cpwx-vrp4-4pq7)
-- Large-scale checks of annotations against tool behavior, for example DCIChecker (arXiv:2606.04769). This repo is one case in detail.
+- Large-scale checks of tool descriptions against what the code does, for example DCIChecker (arXiv:2606.04769). This repo is one case in detail.
 - Open MCP proposals for a `sensitiveHint` annotation, in the MCP specification repository.
 
 ## Disclosure
